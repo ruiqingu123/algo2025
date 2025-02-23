@@ -11,6 +11,7 @@ class Solution:
         offset = 1
         count = 1
 
+        # 左闭右开进行遍历
         res = [[0] * n for _ in range(n)]
         for _ in range(0, n // 2):
 
